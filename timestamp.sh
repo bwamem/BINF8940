@@ -1,7 +1,7 @@
 #!/bin/bash
 
-TIMESTAMP=`date+"%m-%d-%Y"`
-if [ -e $HOME/$TIMESTAMP]
+TIMESTAMP=`date +"%m-%d-%Y"`
+if [ -e $HOME/$TIMESTAMP ]
 then
   echo "directory $HOME/$TIMESTAMP exists"
 else
